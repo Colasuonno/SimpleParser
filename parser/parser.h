@@ -6,6 +6,8 @@
 #define PARSE_PARSER_H
 
 #include <iostream>
+#include <vector>
+#include "node.h"
 
 class Parser {
 
@@ -13,8 +15,8 @@ class Parser {
 
 public:
     Parser(std::string input);
-
-
+    std::string parse();
+    std::vector<Node> nodes;
 
 };
 

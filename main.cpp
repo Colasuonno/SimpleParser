@@ -17,6 +17,7 @@ int main() {
 
     Parser parser("2x + 40y + 22x - 20y");
 
+    std::cout << parser.parse();
 
     return 0;
 }
